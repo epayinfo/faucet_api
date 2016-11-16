@@ -10,7 +10,6 @@ $response = $client->send($apicode,$user_wallet,$amount_to_send,1);
 $response = $client->send($apicode,$user_wallet,$amount_to_send,2,'Referral earnings.');
 
 
-
 /****
 $response['status'] is greater than 0 that means transaction was successful
 ***/
