@@ -1,7 +1,7 @@
 <?php
 
 
-$client = new SoapClient('http://api.epay.info/?wsdl');
+$client = new SoapClient('https://api.epay.info/?wsdl');
 
 // Send a normal prize
 $response = $client->send($apicode,$user_wallet,$amount_to_send,1);
